@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abu Talha Ansari • AI & ML Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ====== HEADER / NAV ====== -->
+  <header class="nav-header">
+    <div class="container flex justify-between items-center py-16">
+      <h1 class="m-0 logo">
+        Abu<span style="color: var(--color-primary);">.</span>
+      </h1>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-list flex gap-16 m-0 p-0">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ====== HERO SECTION ====== -->
+  <section id="hero" class="hero flex items-center justify-center">
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+    <div class="hero__content flex flex-col items-center gap-16 px-16">
+      <div class="avatar-container">
+        <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/cfabecf3-40ee-40b1-b7cf-831fd057c79d.png" alt="AI Avatar of Abu Talha Ansari" class="avatar" />
+      </div>
+      <h2 class="hero-title">Abu Talha Ansari</h2>
+      <div class="tagline-container">
+        <h3 id="rotatingTagline" class="rotating-tagline">AI & ML Innovator</h3>
+      </div>
+      <p class="hero-subtitle">Outstanding 9.71 CGPA | AI & ML Specialist | Full-Stack Developer</p>
+      <div class="cta-buttons flex gap-16 mt-8">
+        <a href="#projects" class="btn btn--primary nav-link">View Projects</a>
+        <button id="chatCta" class="btn btn--secondary">Chat with AI Abu</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT SECTION ====== -->
+  <section id="about" class="section-padding container reveal">
+    <h2 class="section-title">About Me</h2>
+    
+    <div class="about-intro mb-8">
+      <p class="lead-text">Energetic and adaptable AI & ML undergraduate with experience in end-to-end development of AI solutions, aiming to bring technical depth, creativity, and problem-solving skills to dynamic teams tackling next-gen challenges.</p>
+    </div>
+
+    <div class="about-cards grid">
+      <div class="card about-card glass">
+        <div class="card__body">
+          <h3>🎓 Academic Excellence</h3>
+          <p>Outstanding <strong>9.71 CGPA</strong> at New Horizon College of Engineering</p>
+        </div>
+      </div>
+      <div class="card about-card glass">
+        <div class="card__body">
+          <h3>🚀 Current Status</h3>
+          <p>BE AIML Student (2023–2027) specializing in Deep Learning & NLP</p>
+        </div>
+      </div>
+      <div class="card about-card glass">
+        <div class="card__body">
+          <h3>🌟 Passion & Interests</h3>
+          <p>AI research, sports, community volunteering & emerging tech</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Educational Timeline -->
+    <h3 class="timeline-heading">Educational Journey</h3>
+    <ul class="timeline">
+      <li class="timeline-item">
+        <span class="timeline__dot"></span>
+        <div class="timeline__content">
+          <div class="timeline-year">2023 – 2027</div>
+          <div class="timeline-details">
+            <strong>BE in AIML</strong><br>
+            New Horizon College of Engineering<br>
+            <span class="highlight">CGPA: 9.71</span>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline__dot"></span>
+        <div class="timeline__content">
+          <div class="timeline-year">2023</div>
+          <div class="timeline-details">
+            <strong>PUC</strong><br>
+            Cambridge PU College<br>
+            <span class="highlight">94.16%</span>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline__dot"></span>
+        <div class="timeline__content">
+          <div class="timeline-year">2021</div>
+          <div class="timeline-details">
+            <strong>SSLC (CBSE)</strong><br>
+            SJES Central School<br>
+            <span class="highlight">86.5%</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <!-- Achievement Stats -->
+    <div class="stats-container">
+      <div class="stat-item">
+        <span class="counter" data-target="9.71">0</span>
+        <span class="stat-label">CGPA</span>
+      </div>
+      <div class="stat-item">
+        <span class="counter" data-target="6">0</span>
+        <span class="stat-label">Major Projects</span>
+      </div>
+      <div class="stat-item">
+        <span class="counter" data-target="90">0</span>
+        <span class="stat-label">Max Accuracy %</span>
+      </div>
+      <div class="stat-item">
+        <span class="counter" data-target="15">0</span>
+        <span class="stat-label">Technologies</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SKILLS SECTION ====== -->
+  <section id="skills" class="section-padding container reveal">
+    <h2 class="section-title">Technical Skills</h2>
+
+    <div class="skills-grid grid">
+      <!-- Programming Languages -->
+      <div class="skill-category card glass">
+        <div class="card__body">
+          <h3>💻 Programming Languages</h3>
+          <ul class="skill-list">
+            <li class="skill-tag">Python</li>
+            <li class="skill-tag">C</li>
+            <li class="skill-tag">C++</li>
+            <li class="skill-tag">Java</li>
+            <li class="skill-tag">JavaScript</li>
+            <li class="skill-tag">SQL</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- AI/ML -->
+      <div class="skill-category card glass">
+        <div class="card__body">
+          <h3>🤖 AI / ML</h3>
+          <ul class="skill-list">
+            <li class="skill-tag">TensorFlow</li>
+            <li class="skill-tag">Keras</li>
+            <li class="skill-tag">Deep Learning</li>
+            <li class="skill-tag">NLP</li>
+            <li class="skill-tag">Machine Learning</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Web Technologies -->
+      <div class="skill-category card glass">
+        <div class="card__body">
+          <h3>🌐 Web Technologies</h3>
+          <ul class="skill-list">
+            <li class="skill-tag">HTML</li>
+            <li class="skill-tag">CSS</li>
+            <li class="skill-tag">React.js</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Databases & Tools -->
+      <div class="skill-category card glass">
+        <div class="card__body">
+          <h3>🔧 Tools & Databases</h3>
+          <ul class="skill-list">
+            <li class="skill-tag">MongoDB</li>
+            <li class="skill-tag">MySQL</li>
+            <li class="skill-tag">SQLite</li>
+            <li class="skill-tag">Power BI</li>
+            <li class="skill-tag">Excel</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Soft Skills -->
+    <div class="soft-skills-section mt-8">
+      <h3>Soft Skills</h3>
+      <div class="soft-skills-grid">
+        <span class="soft-skill">Problem Solving</span>
+        <span class="soft-skill">Communication</span>
+        <span class="soft-skill">Teamwork</span>
+        <span class="soft-skill">Time Management</span>
+        <span class="soft-skill">Creativity</span>
+        <span class="soft-skill">Critical Thinking</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PROJECTS SECTION ====== -->
+  <section id="projects" class="section-padding container reveal">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid grid">
+      <!-- Projects will be dynamically loaded by JavaScript -->
+    </div>
+  </section>
+
+  <!-- ====== CONTACT SECTION ====== -->
+  <section id="contact" class="section-padding container reveal">
+    <h2 class="section-title">Get In Touch</h2>
+    
+    <div class="contact-container">
+      <div class="contact-form-section">
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="name" class="form-label">Your Name</label>
+            <input id="name" name="name" type="text" class="form-control" placeholder="Enter your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Your Email</label>
+            <input id="email" name="email" type="email" class="form-control" placeholder="Enter your email" required />
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea id="message" name="message" rows="5" class="form-control" placeholder="Tell me about your project or opportunity" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info-section">
+        <div class="contact-info card glass">
+          <div class="card__body">
+            <h3>Contact Information</h3>
+            <div class="contact-details">
+              <div class="contact-item">
+                <strong>📧 Email:</strong>
+                <a href="mailto:scientificallystarabu@gmail.com" target="_blank">scientificallystarabu@gmail.com</a>
+              </div>
+              <div class="contact-item">
+                <strong>📱 Phone:</strong>
+                <a href="tel:+918147598020" target="_blank">+91 8147 598 020</a>
+              </div>
+              <div class="contact-item">
+                <strong>📍 Location:</strong>
+                <span>Bengaluru, India</span>
+              </div>
+            </div>
+            
+            <div class="social-links">
+              <h4>Connect with me:</h4>
+              <div class="social-buttons">
+                <a href="https://www.linkedin.com/in/gamerbhai02" target="_blank" class="btn btn--outline btn--sm">LinkedIn</a>
+                <a href="https://github.com/GamerBhai02" target="_blank" class="btn btn--outline btn--sm">GitHub</a>
+                <a href="https://www.x.com/gamerbhai02" target="_blank" class="btn btn--outline btn--sm">Twitter</a>
+                <a href="https://gamerbhai02.netlify.app" target="_blank" class="btn btn--outline btn--sm">Portfolio</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FLOATING CHAT WIDGET ====== -->
+  <div class="chat-widget-container">
+    <button id="chatToggle" class="chat-toggle" aria-label="Open AI Abu Chat">
+      <span class="chat-icon">🤖</span>
+    </button>
+    <div id="chatWidget" class="chat-window hidden">
+      <div class="chat-header">
+        <div class="chat-avatar">
+          <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/cfabecf3-40ee-40b1-b7cf-831fd057c79d.png" alt="AI Abu" class="chat-avatar-img" />
+        </div>
+        <div class="chat-title">
+          <strong>AI Abu</strong>
+          <span class="chat-subtitle">Ask me anything about Abu's portfolio</span>
+        </div>
+        <button id="chatClose" class="chat-close-btn" aria-label="Close chat">×</button>
+      </div>
+      <div id="chatBody" class="chat-body"></div>
+      <form id="chatForm" class="chat-input-form">
+        <input id="chatMessage" type="text" class="chat-input" placeholder="Type your message..." required />
+        <button class="chat-send-btn" type="submit" aria-label="Send message">
+          <span>➤</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ====== PROJECT MODAL ====== -->
+  <div id="projectModal" class="modal hidden">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-content card">
+      <div class="modal-header">
+        <h3 id="modalTitle" class="modal-title">Project Details</h3>
+        <button id="modalClose" class="modal-close-btn" aria-label="Close modal">×</button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+{
+  "personal_info": {
+    "name": "Abu Talha Ansari",
+    "location": "No. 52, 4th cross, Punya bhoomi layout, Bidarahalli, Bengaluru - 560 049",
+    "phone": "+918147598020",
+    "email": "scientificallystarabu@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/gamerbhai02",
+    "twitter": "https://www.x.com/gamerbhai02",
+    "github": "https://github.com/GamerBhai02",
+    "current_portfolio": "https://gamerbhai02.netlify.app",
+    "date_of_birth": "15/03/2006",
+    "nationality": "Indian",
+    "religion": "Islam",
+    "gender": "Male"
+  },
+  "objective": "Energetic and adaptable AI & ML undergraduate with experience in end-to-end development of AI solutions, including e-commerce classification, financial NLP pipelines, and smart systems. Aiming to bring technical depth, creativity, and problem-solving skills to dynamic teams tackling next-gen challenges.",
+  "education": [
+    {
+      "institution": "New Horizon College of Engineering",
+      "degree": "BE in AIML",
+      "duration": "2023-2027",
+      "cgpa": "9.71"
+    },
+    {
+      "institution": "Cambridge PU College",
+      "degree": "PUC",
+      "year": "2023",
+      "percentage": "94.16"
+    },
+    {
+      "institution": "SJES Central School",
+      "degree": "SSLC (CBSE)",
+      "year": "2021",
+      "percentage": "86.5"
+    }
+  ],
+  "technical_skills": {
+    "programming_languages": [
+      "Python",
+      "C",
+      "C++",
+      "SQL",
+      "Java",
+      "JavaScript"
+    ],
+    "web_technologies": [
+      "HTML",
+      "CSS",
+      "React.js"
+    ],
+    "tools": [
+      "Microsoft Power BI",
+      "Excel"
+    ],
+    "ai_ml": [
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing"
+    ],
+    "databases": [
+      "MySQL",
+      "SQLite",
+      "MongoDB"
+    ],
+    "frameworks": [
+      "TensorFlow",
+      "Keras",
+      "FastText",
+      "Scikit-learn",
+      "Streamlit"
+    ]
+  },
+  "soft_skills": [
+    "Problem Solving",
+    "Communication & Teamwork",
+    "Time Management",
+    "Creativity & Adaptability",
+    "Presentation Skills",
+    "Critical Thinking"
+  ],
+  "projects": [
+    {
+      "name": "E-commerce Text Classification",
+      "type": "Internship Project",
+      "description": "Designed and implemented deep learning models (LSTM, Bi-LSTM, GRU, CNN-LSTM, Attention LSTM) to classify product descriptions from an e-commerce dataset into categories.",
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "NLP",
+        "FastText"
+      ],
+      "results": "Achieved over 90% accuracy using optimized architectures and pre-trained embeddings. Improved the reliability of category tagging for product listings."
+    },
+    {
+      "name": "Smart Power Grid Theft Detection Using AI",
+      "type": "Mini Project",
+      "description": "Developed an AI-based anomaly detection system using smart meter data to identify patterns of electricity theft.",
+      "technologies": [
+        "Python",
+        "Scikit-learn",
+        "Isolation Forest",
+        "Time Series Analysis"
+      ],
+      "results": "Increased anomaly detection accuracy by 35% compared to traditional methods. Proposed a scalable model for integration with smart grids."
+    },
+    {
+      "name": "NewsSense: Why Is My Fund Down?",
+      "type": "Hackathon Project",
+      "description": "Built a system to analyze mutual fund drops by linking financial data to real-world news using NLP and semantic search.",
+      "technologies": [
+        "Python",
+        "Alpha Vantage API",
+        "Bing News Scraper",
+        "Sentence Transformers",
+        "FAISS"
+      ],
+      "results": "Enabled semantic explanation for fund dips, enhancing investor awareness. Finalist among top submissions in the hackathon."
+    },
+    {
+      "name": "AI-Powered Travel Packing Assistant (PackPal)",
+      "type": "Personal Project",
+      "description": "Created an AI assistant that recommends packing lists based on destination, weather, and duration using natural language input.",
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "OpenAI API",
+        "Weather APIs"
+      ],
+      "results": "Improved packing efficiency and reduced overpacking in user tests by 40%."
+    },
+    {
+      "name": "Fish-Schooling-Inspired Traffic Simulation",
+      "type": "Personal Project",
+      "description": "Simulated real-time traffic behavior using fish schooling algorithms to optimize vehicular flow at junctions.",
+      "technologies": [
+        "Python",
+        "Pygame",
+        "NumPy"
+      ],
+      "results": "Demonstrated 25% decrease in congestion under simulated urban conditions."
+    },
+    {
+      "name": "AI-Enhanced Retail Experience",
+      "type": "Sparkathon Project \u2013 Team Synapse",
+      "description": "Led the development of an AI-powered demo for personal shopping, auto product videos, eco-score evaluation, and cart-based suggestions.",
+      "technologies": [
+        "Python",
+        "React",
+        "NLP",
+        "OpenAI",
+        "FFMPEG",
+        "Eco-score Metrics"
+      ],
+      "results": "Delivered a fully functional prototype covering customer experience, sustainability, and intelligent recommendations."
+    }
+  ],
+  "interests": [
+    "Exploring advancements in Artificial Intelligence and emerging tech",
+    "Surfing through the internet for learning and research purposes",
+    "Participating in community events and team-building activities",
+    "Playing outdoor sports like cricket and badminton",
+    "Volunteering and contributing to social causes",
+    "Reading tech blogs and following AI research trends"
+  ],
+  "languages": [
+    "English",
+    "Hindi",
+    "Kannada",
+    "Urdu"
+  ]
+}
